@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headerLogin {
+    background-color: #c20030;
+    height: 120px;
+    width: 100%;
+}
+
+body {
+    background-image: url(../Img/fondo.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.formulario {
+    background-color: white;
+    margin-left: 50px;
+    width: 350px; 
+    height: 450px;
+    border-radius: 10%;
+    position: relative; 
+    top: -20px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.textForm {
+    font-size: 18px;
+    margin-left: 36%;
+    color: red;
+    display: block;
+    margin-top: 30px;
+}
+
+.textForm2 {
+    font-size: 18px;
+    margin-left: 36%;
+    color: red;
+    display: block;
+    margin-top: 15px;
+}
+
+.usuario,
+.contrasenia {
+    width: 80%;
+    height: 40px;
+    padding: 8px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.botonLogin {
+    background-color: #c20030;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; 
+    margin-left: 30%;
+}
+
+.botonLogin:hover {
+    transform: scale(1.1);
+}
+
+.contraseniaOlvidada {
+    margin-left: 28%; 
+    display: block; 
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+.fotoMariposa{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-left: 120px;
+    z-index: 10;
+    margin-top: 40px;
+}
+
+

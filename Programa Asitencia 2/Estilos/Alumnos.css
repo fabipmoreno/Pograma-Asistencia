@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.caja {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.formulario {
+    width: 400px;
+}
+
+.formTabla label,
+.formTabla select,
+.formTabla input {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+.formTabla select {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.formTabla input[type="submit"] {
+    background-color: #c20030;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mesSelect {
+    font-size: 16px;
+}
+
+.mesLetra {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.Tabla {
+    margin-top: 20px;
+}
+
+.TablaT {
+    margin: 0 auto; 
+    width: 80%; 
+    border-collapse: collapse;
+}
+
+.TablaT th,
+.TablaT td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #c20030;
+}
+
+.TablaT th {
+    background-color: #c20030;
+}
+
+.TablaT tr:hover {
+    background-color: #ddd;
+}
+
+
+.Porcentaje {
+    width: 333px;
+    margin-top: 20px;
+    padding: 10px;
+    float: left;
+}
+
+.boton {
+    margin-top: 50px;
+}
+
+.boton a {
+    background-color: #c20030;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+.boton a:hover {
+    background-color: #c20030;
+}
+
+.totalAusencias {
+    text-align: center;
+    line-height: 50px; 
+    margin: 0 auto; 
+    padding: 0;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
